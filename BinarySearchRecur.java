@@ -14,7 +14,7 @@ public class BinarySearchRecur {
             return helper(arr, target, mid+1, end);
         }
         else{
-            return helper(arr, target, start, end-1);
+            return helper(arr, target, start, mid-1);
         }
     }
     public static void main(String[] args) {
